@@ -62,7 +62,6 @@ void setup() {
     Serial.print(event.temperature);
     Serial.println(F("°C"));
     temp_measure = event.temperature;
-    //Serial.print(temp_measure);
   }
 
   // Get humidity event and print its value.
